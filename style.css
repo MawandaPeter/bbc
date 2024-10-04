@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav nav {
+    background-color: bisque;
+    padding: 30px;
+}
+.nav nav a{
+    background-color: rgb(95, 193, 193);
+    color: blue;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    float: right;
+    padding: 2px 30px;
+   
+
+}
+.nav nav a:hover{
+    background-color:red;
+}
+.banner img{
+    width: 100%;
+}
+
+
+
+.Welcome h1{ 
+    text-align: center;
+    padding: 17px ;
+    font-size: 51px;
+    
+}
+.Welcome p{
+    text-align: center;
+    padding-bottom: 17px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.services{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.services-item{
+    width: 32%;
+   margin-left: 10px;
+   background-color: blanchedalmond;
+   text-align: center;
+   padding: 10px;
+   margin-top: 23px;
+}
+.services-item img{
+    width: 100%;
+
+}
+footer{
+    background-color: bisque;
+    padding: 30px;
+}
+    
